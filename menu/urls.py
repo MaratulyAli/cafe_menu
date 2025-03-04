@@ -1,6 +1,5 @@
 from django.urls import path
 from .views import home, menu, cart, dish_detail, drink_detail, checkout
-from django.views.generic.base import RedirectView
 
 urlpatterns = [
     path('', home, name='home'),
